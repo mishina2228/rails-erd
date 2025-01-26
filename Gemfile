@@ -8,6 +8,7 @@ end
 
 
 group :development, :test do
+  gem 'logger' # https://github.com/rails/rails/issues/54260
   gem 'minitest', '~> 5.14.0'
 end
 
