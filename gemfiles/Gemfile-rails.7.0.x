@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gemspec :path => ".."
 
-gem "logger" # https://github.com/rails/rails/issues/54260
+gem "concurrent-ruby", "< 1.3.5" # https://github.com/rails/rails/issues/54260
 
 gem "activerecord", "~> 7.0.0"
 
