@@ -12,7 +12,7 @@ group :development do
   gem "yard"
 
   platforms :ruby do
-    gem "sqlite3"
+    gem "sqlite3", "~> 1.4"
     gem "redcarpet"
   end
 
