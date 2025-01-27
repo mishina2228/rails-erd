@@ -3,6 +3,7 @@ source "http://rubygems.org"
 gemspec :path => ".."
 
 gem "concurrent-ruby", "< 1.3.5" # https://github.com/rails/rails/issues/54260
+gem "mutex_m" # is a bundled gem since Ruby 3.4
 
 gem "activerecord", "~> 7.0.0"
 
